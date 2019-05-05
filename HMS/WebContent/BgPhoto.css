@@ -1,0 +1,9 @@
+@CHARSET "ISO-8859-1";
+
+body { text-align:center; color:#eee; font-size:100%; padding:0px;
+background:url(pic/hospital.jpg) repeat-x; border:1px solid #fff;}
+body { height:100px; width:100%; margin-top:0px; margin-bottom:0px; position:relative;border-radius:0px; } 
+
+body a{ color:#ff8080; }
+body { color:#000; font-family:Georgia, "Comic Sans MS",Helvetica,sans-serif; margin: 0; padding: 0; font-style:small; line-height:20px; }
+body *{ margin: 0; }

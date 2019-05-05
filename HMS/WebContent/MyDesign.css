@@ -1,0 +1,123 @@
+body { font-family:Roboto; margin:0; padding:0; background:url(/99.jpg) top repeat-x #BFBBBC; }
+
+#mainDiv{ width:100%; margin:0 auto; }
+
+
+.left{width: 24%;float:left; display:block; margin-left:0px; margin-right: 5px; margin-top: 0px;  overflow: hidden;}
+.center{width: 49%;float:left; display:block; margin-left:1px; margin-right: 5px; margin-top: 0px;  overflow: hidden;}
+.right{width: 25%;float:left; display:block; margin-left:8px; margin-right: 0px; margin-top: 0px;  overflow: hidden;}
+.center_left{width: 49%;float:left; display:block; margin-left:0px; margin-right: 5px; margin-top: 0px;  overflow: hidden;}
+.center_right{width: 49%;float:left; display:block; margin-left:0px; margin-right: 0px; margin-top: 0px;  overflow: hidden;}
+
+.border { border: 1px solid #336699;padding: 0px; margin:3px; color:#000; font-size:14px; }
+h2 { background-color:#336699; color:#fff; font-size:110%; padding:4px; margin:0px 0; border-bottom:1px solid #16416c; text-align:center; }
+table {
+		border-collapse: collapse;
+}
+
+table th {
+			background-color: #ffffff;
+			text-align: center;
+			padding: 0px 0px 0px 0px;
+			
+}
+
+table td {
+			border: 1px dotted blue;
+			padding: 5px 0px;
+}
+
+table tr:nth-child(odd) {
+						background-color: #804040;
+						color: black;
+}
+
+table tr:nth-child(even) {
+						background-color: #8000ff;
+						color: black;
+}
+
+table td:nth-child(odd) {
+						background-color: white;
+						color: black;
+}
+
+table td:nth-child(even) {
+						background-color: #ffffff;
+						color: black;
+}
+
+
+.sidemenu { background-color: skyblue; color: white; border-bottom-width: 1px; border-bottom-color: black; border-bottom-style: solid; margin-top: 5px; margin-bottom: 5px; font-weight: bold; padding-top: 2px; padding-bottom: 2px; }
+.dashboard { background-color: silver; color: black; border-bottom-width: 1px; border-bottom-color: black; border-bottom-style: solid; margin-top: 5px; margin-bottom: 5px; font-weight: bold; padding-top: 2px; padding-bottom: 2px; }
+.bground { background-color: skyblue; }
+
+.menu { color:#086C8F; font-weight:bold; }
+.menu {
+    border: none;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: none;
+    margin: 1px 1px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.menu1 {
+    background-color: green;
+    color: white;
+    border: 2px solid green;
+    border-radius: 4px;
+}
+
+.menu1:hover {
+    background-color: #eee;
+    color: #555;
+}
+
+
+/* Main Navigation Part Start */
+#navContainer{width:100%; float:center;}
+#navContainer ul{list-style-type:none;}
+#navContainer ul li{display:inline; border-right:#fff solid 1px; float:left;}
+#navContainer ul li a{text-decoration:none; color:white; font-weight:bold; background:#00baed; display:block; padding:8px 15.4px 8px 16px; border-radius:0px 0px 0px 0px;
+background: -moz-linear-gradient(top,  #00baed 0%, #00799a 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,blue), color-stop(100%,red)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #00baed 0%,#00799a 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #00baed 0%,#00799a 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #00baed 0%,#00799a 100%); /* IE10+ */
+background: linear-gradient(to bottom,  blue 0%,blue 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00baed', endColorstr='#00799a',GradientType=0 );
+ }
+#navContainer ul li a:hover{text-decoration:none; color:#fff; background:skyblue; }
+#navContainer ul li a.active{color:#fff; background:#0D67B5;}
+
+#navContainer ul li div.subnav{ position:absolute; z-index:500; width:190px; display:none;}
+#navContainer ul li:hover div.subnav{ display:block;}
+#navContainer ul li div.subnav li{ border:0px; border-bottom:solid 1px #1ea3c7; width:200px;}
+
+#navContainer ul li div.subnav ul li div.subchild{ position:absolute; z-index:500; width:190px; margin-left:199px; margin-top:-32px; display:none;}
+#navContainer ul li div.subnav ul li:hover div.subchild{ display:block;}
+#navContainer ul li div.subnav ul li div.subchild li{ border:0px;  border-bottom:solid 1px #1ea3c7;}
+
+/* Main Navigation Part End */
+
+.footer {
+	background-color: #c0c0c0;
+	float: left;
+	width: 100%;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	padding-left: 5px;
+}
+.footer-1 {
+	float: left;
+    padding-right: 44px;
+    width: 21%;
+}

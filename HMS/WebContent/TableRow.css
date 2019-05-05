@@ -1,0 +1,35 @@
+@CHARSET "ISO-8859-1";
+
+table tr:nth-child(odd) { font-weight: bold; background-color: #f7f7f5; border-bottom: 1px solid #d8dee5; text-shadow: 0px 1px #fff; margin: 1px 0px; padding: 5px; color: #222; }
+
+table tr:nth-child(even) { font-weight: bold; text-shadow: 0px 1px #f0f0f0; background-color: #f0f2f5; border-bottom: 1px solid #d8dbe3; margin: 1px 0px; padding: 5px; color: #222; }
+
+hr{ background-color:#ccc; border:medium none; height:1px; margin:2px 0; padding:0;}
+h1, h2, h3{ text-align: center; background: url(http://djvikash.xtgem.com/images/h2bg.png) repeat-x #285f94; border: 2px solid#97b0d6; border-width: 2px 0; color: #dff4ff; font-size: 100%; padding: 5px; }
+
+
+table th { border-bottom:1px solid #ccc; 
+background:#FDFDFD;
+background: -moz-linear-gradient(top, #FDFDFD 0%, #EEEEEE 100%); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FDFDFD), color-stop(100%,#EEEEEE)); 
+background: -webkit-linear-gradient(top, #FDFDFD 0%, #EEEEEE 100%); 
+}
+
+table th:hover { 
+background:#EDEDED;
+background: -moz-linear-gradient(top, #EDEDED 0%, #DADADA 100%); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EDEDED), color-stop(100%,#DADADA)); 
+background: -webkit-linear-gradient(top, #EDEDED 0%, #DADADA 100%); 
+}
+
+table th:active { 
+background:#EDEDED;
+background: -moz-linear-gradient(top, #285FFF 0%, #285FEE 100%); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#285F94), color-stop(100%,#ea8615)); 
+background: -webkit-linear-gradient(top, #285FFF 0%, #285FEE 100%); 
+}
+
+
+table th a { display:block; align=left; font-weight:bold; background:url(../images/arrow.png) right no-repeat; padding:9px; }
+table th a div span,
+table th  a div span,{ font-size:x-small; color:#5a5; font-weight:normal; }
